@@ -108,6 +108,7 @@ namespace DemoApplication.Api.Controllers
 			{
 				string imagepath = "\\Upload\\" + file.FileName;
 
+
 				filePath = _hostEnvironment.WebRootPath + imagepath;
 
 				using (FileStream filestream = System.IO.File.Create(filePath))
